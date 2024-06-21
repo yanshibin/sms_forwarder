@@ -39,7 +39,7 @@ Description=SMS Forwarder
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/user/sms_forwarder/main.py
+ExecStart=/usr/bin/python3 /root/sms_forwarder/main.py
 
 [Install]
 WantedBy=multi-user.target
